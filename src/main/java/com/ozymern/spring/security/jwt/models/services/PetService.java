@@ -10,7 +10,7 @@ public interface PetService {
 	public Pet findPetById(Long id);
 	public Pet updatePet(Pet pet, Long id);
 	public void deletePet(Pet pet);
-	
+	public Pet createPetPet(Pet pet);
 }
 
 
